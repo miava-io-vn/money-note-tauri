@@ -4,10 +4,8 @@
   "version": "0.1.0",
   "identifier": "com.money-note-tauri.dev",
   "build": {
-    "frontendDist": "./money-note-web/dist",
-    "devUrl": "http://localhost:5173",
-    "beforeDevCommand": "bun run dev",
-    "beforeBuildCommand": "bun run build"
+    "frontendDist": "../money-note-web/dist",
+    "devUrl": "http://localhost:5173"
   },
   "app": {
     "windows": [
